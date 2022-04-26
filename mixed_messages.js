@@ -11,7 +11,7 @@ let dramaFilms = ['Rocky (1976)', 'Call Me By Your Name (2017)', 'Moonlight (201
 let fantasyFilms = ['The Lord of the Rings (2001)', 'Labyrinth (1986)', 'The Dark Crystal (1982)', 'The Batman (2022)',
                 'Spider-Man (2002)', 'Spider-Man: Into the Spider-Verse (2018)', 'The NeverEnding Story (1984)', 'Coraline (2009)',
                 'Shrek (2001)', 'Spirited Away (2001)', 'Princess Mononoke (1997)', 'Ponyo (2008)', 'Pirates of the Caribbean (2003)',
-                'Harry Potter (2001)', 'Star Wars (1976)', 'Stardust (2007)', 'Pan\'s Labyrinth (2006)', 'Avatar (2009)', 
+                'Harry Potter (2001)', 'Star Wars (1977)', 'Stardust (2007)', 'Pan\'s Labyrinth (2006)', 'Avatar (2009)', 
                 'Wings of Desire (1987)', 'Crouching Tiger, Hidden Dragon (2000)'];
 
 
