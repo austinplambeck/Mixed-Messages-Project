@@ -156,7 +156,7 @@
         margin-top: 4vh;
         font-size: 2.8rem;
         letter-spacing: 0.15rem;
-        margin-bottom: 2vh;
+        margin-bottom: 3vh;
         font-family: 'Josefin Sans', sans-serif;
     }
 
@@ -165,7 +165,7 @@
     }
     
     #genreButtonM, #allButtonM {
-        margin: 0 0 3vh 0;
+        margin: 0 0 6vh 0;
         font-size: 1.2rem;
         border: 0.3vh solid #E9F7F9;
     }
