@@ -99,7 +99,7 @@
     #scifiButtonM, #dramaButtonM, #fantasyButtonM {
         font-size: 1.5rem;
         border: 0.3vh solid black;
-        width: 50vw;
+        width: 70vw;
     }
     
     .mainContentMobile button:active {
