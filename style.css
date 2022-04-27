@@ -12,21 +12,32 @@
     width: 100%;
 }
 
-h1 {
+#title {
+    width: 15%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#title h1 {
     margin-top: 8vh;
     font-size: 2.6rem;
+    letter-spacing: 0.75vh;
     margin-bottom: 5vh;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-h3 {
+.mainContent h3 {
     font-size: 1.6rem;
 }
 
-button {
+.mainContent button {
     font-size: 1.6rem;
+    min-width: 237px;
+    width: 16vw;
+    border: 0.3vh solid black;
 }
 
-button:hover {
+.mainContent button:hover {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -34,11 +45,12 @@ button:hover {
 
 #reloadButton {
     border: none;
-    padding: 2vh;
+    padding: 1vh;
     font-size: 2rem;
+    width: 3vw;
 }
 
-p, a {
+.mainContent p, .mainContent a {
     font-size: 0.9rem;
 }
 
@@ -55,7 +67,7 @@ p, a {
     display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
 
     .mainContent {
         display: none;
@@ -66,12 +78,21 @@ p, a {
         margin: 0 auto;
         text-align: center;
         width: 95%;
+        max-height: 90%;
+    }
+
+    #titleMobile {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
     }
     
-    .mainContentMobile h1 {
+    #titleMobile h1 {
         margin-top: 8vh;
-        font-size: 7vw;
+        font-size: 2.5rem;
+        letter-spacing: 0.75vh;
         margin-bottom: 5vh;
+        font-family: 'Josefin Sans', sans-serif;
     }
     
     .mainContentMobile h3 {
@@ -79,8 +100,10 @@ p, a {
     }
     
     .mainContentMobile button {
-        font-size: 4.2vw;
+        font-size: 1.5rem;
         border: 0.3vh solid black;
+        width: 48vw;
+        max-width: 400px;
     }
     
     .mainContentMobile button:active {
@@ -93,6 +116,7 @@ p, a {
         border: none;
         padding: 1.4vh;
         font-size: 7vw;
+        width: 12vw;
     }
 
     .mainContentMobile p {
