@@ -68,9 +68,10 @@ button:hover {
     
     .mainContentMobile button {
         font-size: 4.2vw;
+        border: black;
     }
     
-    .mainContentMobile button:hover {
+    .mainContentMobile button:active {
         background-color: black;
         color: white;
         cursor: pointer;
