@@ -38,6 +38,9 @@ button:hover {
     font-size: 2rem;
 }
 
+p, a {
+    font-size: 0.9rem;
+}
 
 .mainContentMobile {
     display: none;
@@ -58,7 +61,7 @@ button:hover {
     
     .mainContentMobile h1 {
         margin-top: 8vh;
-        font-size: 6vw;
+        font-size: 7vw;
         margin-bottom: 5vh;
     }
     
@@ -79,8 +82,12 @@ button:hover {
     
     #reloadButtonMobile {
         border: none;
-        padding: 2vh;
+        padding: 1.4vh;
         font-size: 7vw;
+    }
+
+    .mainContentMobile p, .mainContentMobile a {
+        font-size: 2.7vw;
     }
 
 }
