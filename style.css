@@ -103,7 +103,7 @@
         max-width: 320px;
     }
     
-    #scifiButtonM:active, #dramaButtonM:active, #fantasyButtonM:active {
+    #scifiButtonM:hover, #dramaButtonM:hover, #fantasyButtonM:hover {
         background-color: black;
         color: white;
         cursor: pointer;
@@ -114,6 +114,12 @@
         padding: 1.4vh;
         font-size: 3rem;
         width: 12vw;
+    }
+
+    #reloadButtonMobile:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
     }
 
     .mainContentMobile p {
