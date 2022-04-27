@@ -99,10 +99,11 @@
     #scifiButtonM, #dramaButtonM, #fantasyButtonM {
         font-size: 1.5rem;
         border: 0.3vh solid black;
-        width: 70vw;
+        width: 67vw;
+        max-width: 320px;
     }
     
-    .mainContentMobile button:active {
+    #scifiButtonM:active, #dramaButtonM:active, #fantasyButtonM:active {
         background-color: black;
         color: white;
         cursor: pointer;
