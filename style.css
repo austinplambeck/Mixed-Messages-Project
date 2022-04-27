@@ -42,6 +42,15 @@ p, a {
     font-size: 0.9rem;
 }
 
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom: 2vh;
+    left: 25%;
+    right: 25%;
+}
+
+
 .mainContentMobile {
     display: none;
 }
@@ -86,8 +95,21 @@ p, a {
         font-size: 7vw;
     }
 
-    .mainContentMobile p, .mainContentMobile a {
+    .mainContentMobile p {
         font-size: 2.7vw;
+        margin: 1vh;
+    }
+
+    .mainContentMobile a {
+        font-size: 2.7vw;
+    }
+
+    .footerMobile {
+        text-align: center;
+        position:fixed;
+        bottom: 2vh;
+        left: 25%;
+        right: 25%;
     }
 
 }
