@@ -1,7 +1,7 @@
 * {
     background-color: beige;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 10pt;
 }
 
@@ -13,9 +13,8 @@
 }
 
 #title {
-    width: 15%;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 #title h1 {
@@ -84,19 +83,19 @@
     #titleMobile {
         width: 50%;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
     }
     
     #titleMobile h1 {
         margin-top: 4vh;
         font-size: 2.8rem;
-        letter-spacing: 0.5vh;
+        letter-spacing: 0.3rem;
         margin-bottom: 5vh;
         font-family: 'Josefin Sans', sans-serif;
     }
     
     .mainContentMobile h3 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
     
     .mainContentMobile button {
@@ -136,4 +135,70 @@
         right: 25%;
     }
 
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+
+    .mainContent {
+        display: none;
+    }
+
+    .mainContentMobile {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 95%;
+        max-height: 90%;
+    }
+
+    #titleMobile {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #titleMobile h1 {
+        margin-top: 4vh;
+        font-size: 2.8rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 5vh;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .mainContentMobile h3 {
+        font-size: 1.3rem;
+    }
+    
+    .mainContentMobile button {
+        font-size: 1.5rem;
+        border: 0.3vh solid black;
+        width: 50vw;
+        max-width: 400px;
+    }
+    
+    .mainContentMobile button:active {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #reloadButtonMobile {
+        border: none;
+        padding: 1.4vh;
+        font-size: 3rem;
+        width: 12vw;
+    }
+
+    .mainContentMobile p {
+        font-size: 1rem;
+        margin: 1vh;
+    }
+
+    .mainContentMobile a {
+        font-size: 1rem;
+    }
+
+    .footerMobile {
+        text-align: center;
+    }
 }
