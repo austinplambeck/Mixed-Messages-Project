@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Random Film Generator!</title>
+    <title>The Film Generator</title>
+
     <link rel="stylesheet" href="./style.css">
+
     <script src="./mixed-messages.js" defer></script>
+    <script src="./toggle.js" defer></script>
+    <script src="./reload.js" defer></script>
+    <script src="./randomfilm.js" defer></script>
+
     <link rel="icon" href="https://www.indiewire.com/wp-content/uploads/2018/01/blade_runner_2049-png.jpeg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
@@ -12,21 +18,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@500&family=Rubik&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="toggleGenre()">
     <section class="mainContent">
         <div id="title">
             <h1>The<br>Film<br>Generator</h1>
         </div>
-        <button id="scifiButton" onclick="filmGenerator(scifiFilms, adjs)">Click for a sci-fi film</button>
-        <h3 id="scifiDisplay"></h3>
-        <br>
-        <button id="dramaButton" onclick="filmGenerator(dramaFilms, adjs)">Click for a drama film</button>
-        <h3 id="dramaDisplay"></h3>
-        <br>
-        <button id="fantasyButton" onclick="filmGenerator(fantasyFilms, adjs)">Click for a fantasy film</button>
-        <h3 id="fantasyDisplay"></h3>
-        <br>
-        <button id="reloadButton" onclick="reloadPage()">&#8635</button>
+
+        <div id="toggleButtons">
+            <button id="genreButton" onclick="toggleGenre()">GENRE</button>
+            <button id="allButton" onclick="toggleAll()">ALL</button>
+        </div>
+
+        <div class="genre">
+            <button id="scifiButton" onclick="filmGenerator(scifiFilms, adjs)">Click for a sci-fi film</button>
+            <h3 id="scifiDisplay"></h3>
+            <br>
+            <button id="dramaButton" onclick="filmGenerator(dramaFilms, adjs)">Click for a drama film</button>
+            <h3 id="dramaDisplay"></h3>
+            <br>
+            <button id="fantasyButton" onclick="filmGenerator(fantasyFilms, adjs)">Click for a fantasy film</button>
+            <h3 id="fantasyDisplay"></h3>
+            <br>
+            <button id="reloadButton" onclick="reloadFilms()">&#8635</button>
+        </div>
+
+        <div class="all">
+            <button id="randomButton" onclick="randomGenerator()">Click for a random film</button>
+            <h3 id="filmDisplay"></h3>
+            <button id="reloadButton2" onclick="reloadFilms()">&#8635</button>
+        </div>
+
         <div class="footer">
             <p>created by <a href="https://instagram.com/plambo.world" target="_blank">@plambo.world</a></p>
             <p>my <a href="https://letterboxd.com/plamboren/" target="_blank">letterboxd</a></p>
@@ -36,16 +57,31 @@
         <div id="titleMobile">
             <h1>The<br>Film<br>Generator</h1>
         </div>
-        <button id="scifiButtonM" onclick="filmGenerator(scifiFilms, adjs)">Click for a sci-fi film</button>
-        <h3 id="scifiDisplayM"></h3>
-        <br>
-        <button id="dramaButtonM" onclick="filmGenerator(dramaFilms, adjs)">Click for a drama film</button>
-        <h3 id="dramaDisplayM"></h3>
-        <br>
-        <button id="fantasyButtonM" onclick="filmGenerator(fantasyFilms, adjs)">Click for a fantasy film</button>
-        <h3 id="fantasyDisplayM"></h3>
-        <br>
-        <button id="reloadButtonMobile" onclick="reloadPage()">&#8635</button>
+        
+        <div class="toggleButtonsMobile">
+            <button id="genreButtonM" onclick="toggleGenre()">GENRE</button>
+            <button id="allButtonM" onclick="toggleAll()">ALL</button>
+        </div>
+
+        <div class="genreMobile">
+            <button id="scifiButtonM" onclick="filmGenerator(scifiFilms, adjs)">Click for a sci-fi film</button>
+            <h3 id="scifiDisplayM"></h3>
+            <br>
+            <button id="dramaButtonM" onclick="filmGenerator(dramaFilms, adjs)">Click for a drama film</button>
+            <h3 id="dramaDisplayM"></h3>
+            <br>
+            <button id="fantasyButtonM" onclick="filmGenerator(fantasyFilms, adjs)">Click for a fantasy film</button>
+            <h3 id="fantasyDisplayM"></h3>
+            <br>
+            <button id="reloadButtonMobile" onclick="reloadFilms()">&#8635</button>
+        </div>
+
+        <div class="allMobile">
+            <button id="randomButtonM" onclick="randomGenerator()">Click for a random film</button>
+            <h3 id="filmDisplayM"></h3>
+            <button id="reloadButton2M" onclick="reloadFilms()">&#8635</button>
+        </div>
+
         <div class="footerMobile">
             <p>created by <a href="https://instagram.com/plambo.world" target="_blank">@plambo.world</a></p>
             <p>my <a href="https://letterboxd.com/plamboren/" target="_blank">letterboxd</a></p>

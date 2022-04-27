@@ -44,9 +44,8 @@ const filmGenerator = (films, adjs) => {
     }
 }
 
-const reloadPage = () => {
-    window.location.reload();
-}
+
+
 
 
 
