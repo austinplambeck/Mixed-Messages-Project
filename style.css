@@ -1,6 +1,6 @@
 * {
-    background-color: beige;
-    color: black;
+    background-color: #181E34;
+    color: #ccd3f2;
     font-family: 'Rubik', sans-serif;
     font-size: 10pt;
     border-radius: 5px;
@@ -25,7 +25,7 @@
 #genreButton, #allButton {
     margin: 0;
     font-size: 1.2rem;
-    border: 0.3vh solid black;
+    border: 0.3vh solid #E9F7F9;
 }
 
 
@@ -60,10 +60,12 @@
     font-size: 1.6rem;
     min-width: 237px;
     width: 16vw;
-    border: 0.3vh solid black;
+    border: 0.3vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
 }
 
-.mainContent button:hover {
+#scifiButton:hover, #fantasyButton:hover, #dramaButton:hover, #reloadButton:hover {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -77,12 +79,22 @@
 .all button {
     margin: 0 auto;
     font-size: 1.7rem;
-    border: 0.3vh solid black;
+    border: 0.3vh solid #3a4c8d;
+    background-color: #ccd3f2;
+    color: black;
+    cursor: pointer;
 }
 
 #randomButton {
     margin-bottom: 2.5vh;
     font-size: 1.6rem;
+    width: 16vw;
+}
+
+#randomButton:hover, #reloadButton2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 
 #filmDisplay {
@@ -92,6 +104,8 @@
 
 #reloadButton2 {
     border: none;
+    color: #ccd3f2;
+    background-color: #181E34;
     padding: 1vh;
     font-size: 3rem;
     width: 4vw;
@@ -117,6 +131,8 @@
 .mainContentMobile {
     display: none;
 }
+
+
 
 @media only screen and (max-width: 800px) {
 
@@ -151,7 +167,7 @@
     #genreButtonM, #allButtonM {
         margin: 0 0 3vh 0;
         font-size: 1.2rem;
-        border: 0.3vh solid black;
+        border: 0.3vh solid #E9F7F9;
     }
 
 
@@ -164,12 +180,14 @@
     
     #scifiButtonM, #dramaButtonM, #fantasyButtonM {
         font-size: 1.5rem;
-        border: 0.3vh solid black;
         width: 67vw;
         max-width: 320px;
+        border: 0.3vh solid #3a4c8d;
+        background-color: #ccd3f2;
+        color: black;
     }
     
-    #scifiButtonM:hover, #dramaButtonM:hover, #fantasyButtonM:hover {
+    #scifiButtonM:active, #dramaButtonM:active, #fantasyButtonM:active {
         background-color: black;
         color: white;
         cursor: pointer;
@@ -180,6 +198,7 @@
         padding: 1vh;
         font-size: 3rem;
         width: 17vw;
+        color: #ccd3f2;
     }
 
     #reloadButtonMobile:active {
@@ -195,7 +214,9 @@
     .allMobile button {
         margin: 0 auto;
         font-size: 1.7rem;
-        border: 0.3vh solid black;
+        border: 0.3vh solid #3a4c8d;
+        background-color: #ccd3f2;
+        color: black;
     }
     
     #randomButtonM {
@@ -209,13 +230,15 @@
     }
     
     #reloadButton2M {
+        background-color:#181E34;
+        color:#ccd3f2;
         border: none;
         padding: 1vh;
         font-size: 3rem;
         width: 17vw;
     }
 
-    #reloadButton2M:active {
+    #reloadButton2M:active, #randomButtonM:active {
         background-color: black;
         color: white;
         cursor: pointer;

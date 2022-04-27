@@ -17,12 +17,12 @@ const toggleGenre = () => {
 
     genreButton.style.backgroundColor = 'black';
     genreButton.style.color = 'white';
-    allButton.style.backgroundColor = 'beige';
+    allButton.style.backgroundColor = 'white';
     allButton.style.color = 'black';
 
     genreButtonM.style.backgroundColor = 'black';
     genreButtonM.style.color = 'white';
-    allButtonM.style.backgroundColor = 'beige';
+    allButtonM.style.backgroundColor = 'white';
     allButtonM.style.color = 'black';
 }
 
@@ -35,12 +35,12 @@ const toggleAll = () => {
 
     allButton.style.backgroundColor = 'black';
     allButton.style.color = 'white';
-    genreButton.style.backgroundColor = 'beige';
+    genreButton.style.backgroundColor = 'white';
     genreButton.style.color = 'black';
 
     allButtonM.style.backgroundColor = 'black';
     allButtonM.style.color = 'white';
-    genreButtonM.style.backgroundColor = 'beige';
+    genreButtonM.style.backgroundColor = 'white';
     genreButtonM.style.color = 'black';
 }
 
