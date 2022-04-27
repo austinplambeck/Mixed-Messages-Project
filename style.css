@@ -49,39 +49,34 @@ button:hover {
         display: none;
     }
 
-    .mainContent {
-        display: block;
-        font-size: 
-    }
-
-    .mainContent {
+    .mainContentMobile {
         display: block;
         margin: 0 auto;
         text-align: center;
         width: 100%;
     }
     
-    h1 {
+    .mainContentMobile h1 {
         margin-top: 8vh;
         font-size: 2.4rem;
         margin-bottom: 5vh;
     }
     
-    h3 {
+    .mainContentMobile h3 {
         font-size: 1.4rem;
     }
     
-    button {
+    .mainContentMobile button {
         font-size: 1.2rem;
     }
     
-    button:hover {
+    .mainContentMobile button:hover {
         background-color: black;
         color: white;
         cursor: pointer;
     }
     
-    #reloadButton {
+    #reloadButtonMobile {
         border: none;
         padding: 2vh;
         font-size: 2rem;
