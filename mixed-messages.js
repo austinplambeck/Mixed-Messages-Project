@@ -29,12 +29,15 @@ const filmGenerator = (films, adjs) => {
 
     if (fantasyFilms.includes(filmPick)) {
         fantasyDisplay.innerHTML = `${filmPick} is a ${adjPick} fantasy film.`;
+        fantasyDisplayM.innerHTML = `${filmPick} is a ${adjPick} fantasy film.`;
     }
     else if (scifiFilms.includes(filmPick)) {
         scifiDisplay.innerHTML = `${filmPick} is a ${adjPick} science-fiction film.`;
+        scifiDisplayM.innerHTML = `${filmPick} is a ${adjPick} science-fiction film.`;
     }
     else if (dramaFilms.includes(filmPick)) {
         dramaDisplay.innerHTML = `${filmPick} is a ${adjPick} drama film.`;
+        dramaDisplayM.innerHTML = `${filmPick} is a ${adjPick} drama film.`;
     }
     else {
         console.log('Pick a genre.');

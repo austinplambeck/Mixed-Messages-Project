@@ -2,7 +2,7 @@
     background-color: beige;
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 .mainContent {
@@ -14,16 +14,16 @@
 
 h1 {
     margin-top: 8vh;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     margin-bottom: 5vh;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 button {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 button:hover {
@@ -53,21 +53,21 @@ button:hover {
         display: block;
         margin: 0 auto;
         text-align: center;
-        width: 100%;
+        width: 95%;
     }
     
     .mainContentMobile h1 {
         margin-top: 8vh;
-        font-size: 2.4rem;
+        font-size: 6vw;
         margin-bottom: 5vh;
     }
     
     .mainContentMobile h3 {
-        font-size: 1.4rem;
+        font-size: 4.75vw;
     }
     
     .mainContentMobile button {
-        font-size: 1.2rem;
+        font-size: 4.2vw;
     }
     
     .mainContentMobile button:hover {
@@ -79,7 +79,7 @@ button:hover {
     #reloadButtonMobile {
         border: none;
         padding: 2vh;
-        font-size: 2rem;
+        font-size: 7vw;
     }
 
 }
