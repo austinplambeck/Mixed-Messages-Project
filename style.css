@@ -68,7 +68,7 @@ button:hover {
     
     .mainContentMobile button {
         font-size: 4.2vw;
-        border: black;
+        border: 0.3vh solid black;
     }
     
     .mainContentMobile button:active {
