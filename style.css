@@ -19,7 +19,7 @@
 }
 
 #title h1 {
-    margin-top: 8vh;
+    margin-top: 4vh;
     font-size: 2.6rem;
     letter-spacing: 0.75vh;
     margin-bottom: 5vh;
@@ -30,7 +30,14 @@
     font-size: 1.6rem;
 }
 
-.mainContent button {
+#reloadButton {
+    border: none;
+    padding: 1vh;
+    font-size: 3rem;
+    width: 4vw;
+}
+
+#scifiButton, #fantasyButton, #dramaButton {
     font-size: 1.6rem;
     min-width: 237px;
     width: 16vw;
@@ -43,20 +50,13 @@
     cursor: pointer;
 }
 
-#reloadButton {
-    border: none;
-    padding: 1vh;
-    font-size: 2rem;
-    width: 3vw;
-}
-
 .mainContent p, .mainContent a {
     font-size: 0.9rem;
 }
 
 .footer {
     text-align: center;
-    position:fixed;
+    position:absolute;
     bottom: 2vh;
     left: 25%;
     right: 25%;
@@ -88,21 +88,21 @@
     }
     
     #titleMobile h1 {
-        margin-top: 8vh;
-        font-size: 2.5rem;
-        letter-spacing: 0.75vh;
+        margin-top: 4vh;
+        font-size: 2.8rem;
+        letter-spacing: 0.5vh;
         margin-bottom: 5vh;
         font-family: 'Josefin Sans', sans-serif;
     }
     
     .mainContentMobile h3 {
-        font-size: 4.75vw;
+        font-size: 1.3rem;
     }
     
     .mainContentMobile button {
         font-size: 1.5rem;
         border: 0.3vh solid black;
-        width: 48vw;
+        width: 50vw;
         max-width: 400px;
     }
     
@@ -115,22 +115,22 @@
     #reloadButtonMobile {
         border: none;
         padding: 1.4vh;
-        font-size: 7vw;
+        font-size: 3rem;
         width: 12vw;
     }
 
     .mainContentMobile p {
-        font-size: 2.7vw;
+        font-size: 1rem;
         margin: 1vh;
     }
 
     .mainContentMobile a {
-        font-size: 2.7vw;
+        font-size: 1rem;
     }
 
     .footerMobile {
         text-align: center;
-        position:fixed;
+        position: absolute;
         bottom: 2vh;
         left: 25%;
         right: 25%;
