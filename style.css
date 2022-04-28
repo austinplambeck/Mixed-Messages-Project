@@ -13,11 +13,6 @@
     width: 100%;
 }
 
-
-
-
-
-
 #toggleButtons {
     margin: 3vh 0vh 6vh 0vh;
 }
@@ -27,10 +22,6 @@
     font-size: 1.2rem;
     border: 0.3vh solid #E9F7F9;
 }
-
-
-
-
 
 #title {
     margin: 0 auto;
@@ -71,11 +62,6 @@
     cursor: pointer;
 }
 
-
-
-
-
-
 .all button {
     margin: 0 auto;
     font-size: 1.7rem;
@@ -110,10 +96,6 @@
     font-size: 3rem;
     width: 4vw;
 }
-
-
-
-
 
 .mainContent p, .mainContent a {
     font-size: 0.9rem;
@@ -169,9 +151,6 @@
         font-size: 1.2rem;
         border: 0.3vh solid #E9F7F9;
     }
-
-
-
     
     .mainContentMobile h3 {
         font-size: 1.3rem;
@@ -207,10 +186,6 @@
         cursor: pointer;
     }
 
-
-
-
-
     .allMobile button {
         margin: 0 auto;
         font-size: 1.7rem;
@@ -243,15 +218,6 @@
         color: white;
         cursor: pointer;
     }
-
-
-
-
-
-
-
-
-
 
     .mainContentMobile p {
         font-size: 1rem;
