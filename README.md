@@ -1,4 +1,4 @@
-# Film Generator
+# [Film Generator](https://filmgenerator.netlify.app/)
 ## Based on Codecademy's "Mixed Messages" JavaScript Project
 
 ### Overview:
@@ -7,6 +7,7 @@
 - The other setting randomly generates one film, regardless of genre.
 - User has the ability to switch between these two generator settings.
 - User has the ability to reset the films and sentences generated.
+- [See it in action](https://filmgenerator.netlify.app/)
 
 ### Built With:
 1. JavaScript
@@ -25,5 +26,5 @@
 
 ### Contact:
 
-[Portfolio Website](https://plambo.world)
-[Email](mailto:austinplambeck@gmail.com)
+- [Portfolio Website](https://plambo.world)
+- [Email](mailto:austinplambeck@gmail.com)
