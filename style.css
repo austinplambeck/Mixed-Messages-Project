@@ -21,6 +21,7 @@
     margin: 0;
     font-size: 1.2rem;
     border: 0.3vh solid #E9F7F9;
+    cursor: pointer;
 }
 
 #title {
