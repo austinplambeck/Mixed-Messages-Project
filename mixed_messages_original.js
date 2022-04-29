@@ -18,9 +18,9 @@ let fantasyFilms = ['The Lord of the Rings (2001)', 'Labyrinth (1986)', 'The Dar
 let adjs = ['great', 'fantastic', 'wonderful', 'brilliant', 'beautiful', 'notable', 'superb'];
 
 const filmGenerator = (films, adjs) => {
-    let filmPick = films[Math.floor(Math.random() * (films.length - 1))];
+    let filmPick = films[Math.floor(Math.random() * (films.length))];
 
-    let adjPick = adjs[Math.floor(Math.random() * (adjs.length - 1))];
+    let adjPick = adjs[Math.floor(Math.random() * (adjs.length))];
 
     if (fantasyFilms.includes(filmPick)) {
         console.log(`${filmPick} is a ${adjPick} fantasy film.`);

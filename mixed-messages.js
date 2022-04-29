@@ -8,7 +8,7 @@ let dramaFilms = ['Rocky (1976)', 'Call Me By Your Name (2017)', 'Moonlight (201
                 'Roma (2018)', 'La La Land (2016)', 'Dead Poets Society (1989)', 'Forrest Gump (1994)', 'Parasite (2019)',
                 'The Apartment (1960)', 'Little Women (2019)', 'The Shawshank Redemption (1994)', 'Creed (2015)'];
 
-let fantasyFilms = ['The Lord of the Rings (2001)', 'Labyrinth (1986)', 'The Dark Crystal (1982)', 'The Batman (2022)',
+let fantasyFilms = ['The Lord of the Rings (2001)', 'Labyrinth (1986)', 'The Dark Crystal (1982)', 'Man of Steel (2013)',
                 'Spider-Man (2002)', 'Spider-Man: Into the Spider-Verse (2018)', 'The NeverEnding Story (1984)', 'Coraline (2009)',
                 'Shrek (2001)', 'Spirited Away (2001)', 'Princess Mononoke (1997)', 'Ponyo (2008)', 'Pirates of the Caribbean (2003)',
                 'Harry Potter (2001)', 'Star Wars (1977)', 'Stardust (2007)', 'Pan\'s Labyrinth (2006)', 'Avatar (2009)', 

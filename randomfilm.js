@@ -12,7 +12,7 @@ let randomFilms =
 'Interstellar (2014)', 'Arrival (2016)', 'Planet of The Apes (1968)', 'Gattaca (1997)', 
 'E.T. The Extra-Terrestrial (1982)', 'Alien (1979)', 'Looper (2012)', 'The Matrix (1999)', 
 'Annihilation (2018)', 'Knives Out (2019)', 'Star Wars: The Last Jedi (2017)', 'No Time To Die (2021)', 'Skyfall (2012)', 
-'The Iron Giant (1999)'];
+'The Iron Giant (1999)', 'Man of Steel (2013)'];
 
 let filmDisplay = document.getElementById('filmDisplay');
 let filmDisplayM = document.getElementById('filmDisplayM');
